@@ -83,6 +83,9 @@ const options = commander_1.program.opts();
                 }))();
                 break;
             }
+            default: {
+                console.log('Action is Error');
+            }
         }
     };
     invokeAction(action, +id, name, email, phone);

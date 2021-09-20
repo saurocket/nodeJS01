@@ -73,6 +73,9 @@ const {action, id, name, email, phone}  = options
                 })()
                 break
             }
+            default: {
+                console.log('Action is Error')
+            }
         }
     }
     invokeAction(action,+id,name,email,phone)
